@@ -3,13 +3,16 @@
 - [Z plane](#Z_plane)
     - [Features](#features)
     - [Demos](#Demos)
+      - [Low Pass Filter](#Low_Pass_Filter)
+      - [Notch Filter](#Notch_Filter)
 - [ALL Pass Filiters ibrary](#ALL_Pass_Filiters_Library)
    - [Pros](#Pros)
    - [Demos](#Demos)
+     - [All Pass Library](#ALL_Pass_Library)
+     - [All Pass Effect](#ALL_Pass_Effect)
+
 - [Real Time Filtering Process](#Real_Time_Filtering_Process)
    - [Demos](#Demos)
-    - [Low Pass Filter](#Low_Pass_Filter)
-    - [Notch Filter](#Notch_Filter)
 - [Run-App](#Run-App)  
 ------
 ## Description
@@ -32,7 +35,7 @@ response and another graph for the phase response.
  #### Low_Pass_Filter
  ![Composer](docs/low_pass.gif)
  #### Notch_Filter
-  ![Composer](docs/notch.gif)
+  ![Composer](docs/notch_filter.gif)
 
 
 
@@ -48,7 +51,11 @@ Correct for the phase by adding some All-Pass filters to be linear. The user can
 
 ------ 
 ### Demos
-![Composer](docs/all_pass.gif)
+#### ALL_Pass_Library
+![Composer](docs/all_pass_lib.gif)
+#### ALL_Pass_Effect
+![Composer](docs/all_pass_effect.gif)
+
 
 
 ------
@@ -58,7 +65,7 @@ Correct for the phase by adding some All-Pass filters to be linear. The user can
 
 ---
 ### Demos
-![Composer](docs/error_map.gif)
+![Composer](docs/real_time_filtering_effect.gif)
 
 -----
 
